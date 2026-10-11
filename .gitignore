@@ -1,0 +1,32 @@
+# Local datasets and generated artifacts
+data/raw/
+data/processed/
+artifacts/
+models/
+mlruns/
+tools/
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# kafka 부분
+kafka/latest_data.json
+kafka/latest_raw.json
+kafka/latest_raw.json.tmp
+kafka/logs/
+kafka/run/
